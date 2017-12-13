@@ -11,7 +11,7 @@
   <ion-item>
     <ion-label>Placa</ion-label>
     <ion-select [(ngModel)]="selected_smart_code" (ionChange)="onSmartCodeSelected($event)">
-      <ion-option *ngFor="let userCar of userCars" value="{{userCar.smart_code}}">{{userCar.smart_code}}</ion-option>
+      <ion-option *ngFor="let userCar of userCars" value="{{userCar.smart_code}}">{{userCar.plate | uppercase}}</ion-option>
     </ion-select>
   </ion-item>
 
