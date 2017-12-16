@@ -38,12 +38,17 @@ export class HomePage {
           // lat: -12.9996967,
           // long: -38.510406
 <<<<<<< HEAD
+<<<<<<< HEAD
           lat: 43.0741904,
           lng: -89.3809802
 =======
           lat: -12.999490,
           lng: -38.510411
 >>>>>>> a6f569d... mudancas
+=======
+          lat: -12.999490,
+          lng: -38.510411
+>>>>>>> 2d216294c97467acad7595de39bc6ea81254a4fb
         },
         zoom: 15,
         tilt: 30
@@ -54,16 +59,22 @@ export class HomePage {
       .then(() => {
         this.map.addMarker({
 <<<<<<< HEAD
+<<<<<<< HEAD
           title: 'Ionic',
 =======
           title: 'Cliente1,Carro:Audi a8,Telefone:91919293',
 		  
 >>>>>>> a6f569d... mudancas
+=======
+          title: 'Cliente1,Carro:Audi a8,Telefone:91919293',
+		  
+>>>>>>> 2d216294c97467acad7595de39bc6ea81254a4fb
           icon: 'blue',
           animation: 'DROP',
           position: {
             // lat: -12.9996967,
             // long: -38.510406
+<<<<<<< HEAD
 <<<<<<< HEAD
             lat: 43.0741904,
             lng: -89.3809802
@@ -71,6 +82,10 @@ export class HomePage {
             lat: -12.999490,
             lng: -38.510411
 >>>>>>> a6f569d... mudancas
+=======
+            lat: -12.999490,
+            lng: -38.510411
+>>>>>>> 2d216294c97467acad7595de39bc6ea81254a4fb
           }
         })
           .then(marker => {

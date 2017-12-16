@@ -12,9 +12,13 @@ import { ListPage } from '../pages/list/list';
 import { ListDetailPage } from '../pages/list-detail/list-detail';
 import { LoginPage } from '../pages/login/login';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { PagamentoPage } from '../pages/pagamento/pagamento';
 >>>>>>> a6f569d... mudancas
+=======
+import { PagamentoPage } from '../pages/pagamento/pagamento';
+>>>>>>> 2d216294c97467acad7595de39bc6ea81254a4fb
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -31,9 +35,13 @@ import { UsersProvider } from '../providers/users/users';
     HomePage,
     ListPage,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	PagamentoPage,
 >>>>>>> a6f569d... mudancas
+=======
+	PagamentoPage,
+>>>>>>> 2d216294c97467acad7595de39bc6ea81254a4fb
     ListDetailPage
   ],
   imports: [
@@ -49,9 +57,13 @@ import { UsersProvider } from '../providers/users/users';
     HomePage,
     ListPage,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	PagamentoPage,
 >>>>>>> a6f569d... mudancas
+=======
+	PagamentoPage,
+>>>>>>> 2d216294c97467acad7595de39bc6ea81254a4fb
     ListDetailPage
   ],
   providers: [

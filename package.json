@@ -31,6 +31,7 @@
     "cordova-browser": "5.0.1",
     "cordova-ios": "4.5.4",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "cordova-plugin-device": "^1.1.4",
     "cordova-plugin-googlemaps": "^2.1.1",
     "cordova-plugin-googlemaps-sdk": "git+https://github.com/mapsplugin/cordova-plugin-googlemaps-sdk.git",
@@ -38,13 +39,18 @@
     "cordova-plugin-splashscreen": "^4.0.3",
     "cordova-plugin-whitelist": "^1.3.1",
 =======
+=======
+>>>>>>> 2d216294c97467acad7595de39bc6ea81254a4fb
     "cordova-plugin-device": "^1.1.7",
     "cordova-plugin-googlemaps": "^2.1.1",
     "cordova-plugin-googlemaps-sdk": "git+https://github.com/mapsplugin/cordova-plugin-googlemaps-sdk.git",
     "cordova-plugin-ionic-webview": "^1.1.16",
     "cordova-plugin-splashscreen": "^4.1.0",
     "cordova-plugin-whitelist": "^1.3.3",
+<<<<<<< HEAD
 >>>>>>> a6f569d... mudancas
+=======
+>>>>>>> 2d216294c97467acad7595de39bc6ea81254a4fb
     "firebase": "^4.8.0",
     "ionic-angular": "3.9.2",
     "ionic-plugin-keyboard": "^2.2.1",

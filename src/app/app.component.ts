@@ -6,10 +6,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { AlertController } from 'ionic-angular';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 import { PagamentoPage } from '../pages/pagamento/pagamento';
 >>>>>>> a6f569d... mudancas
+=======
+import { PagamentoPage } from '../pages/pagamento/pagamento';
+>>>>>>> 2d216294c97467acad7595de39bc6ea81254a4fb
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { LoginPage } from '../pages/login/login';
@@ -36,14 +40,20 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
 <<<<<<< HEAD
+<<<<<<< HEAD
       { title: 'Home', component: HomePage, icon: 'home' },
       { title: 'Histórico', component: ListPage, icon: 'pin' }
 =======
+=======
+>>>>>>> 2d216294c97467acad7595de39bc6ea81254a4fb
       { title: 'Tela Inicial', component: HomePage, icon: 'home' },
       { title: 'Histórico', component: ListPage, icon: 'pin' },
       { title: 'Pagamento', component: PagamentoPage, icon: 'cash' }
      
+<<<<<<< HEAD
 >>>>>>> a6f569d... mudancas
+=======
+>>>>>>> 2d216294c97467acad7595de39bc6ea81254a4fb
     ];
 
   }
@@ -102,7 +112,10 @@ export class MyApp {
     alert.present();
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 2d216294c97467acad7595de39bc6ea81254a4fb
    doPromptContato() {
     let alert = this.Alert.create({
       title: '&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspCONTATO',
@@ -121,5 +134,8 @@ export class MyApp {
 
     alert.present();
   }
+<<<<<<< HEAD
 >>>>>>> a6f569d... mudancas
+=======
+>>>>>>> 2d216294c97467acad7595de39bc6ea81254a4fb
 }
