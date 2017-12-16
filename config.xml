@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<<<<<<< HEAD
     <name>hermes</name>
+=======
+    <name>Smart Security</name>
+>>>>>>> a6f569d... mudancas
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
     <content src="index.html" />
@@ -16,6 +20,10 @@
     <preference name="BackupWebStorage" value="none" />
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="FadeSplashScreenDuration" value="300" />
+<<<<<<< HEAD
+=======
+    <preference name="ShowSplashScreenSpinner" value="false" />
+>>>>>>> a6f569d... mudancas
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
@@ -80,9 +88,15 @@
     <engine name="browser" spec="5.0.1" />
     <engine name="android" spec="6.3.0" />
     <plugin name="ionic-plugin-keyboard" spec="^2.2.1" />
+<<<<<<< HEAD
     <plugin name="cordova-plugin-whitelist" spec="^1.3.1" />
     <plugin name="cordova-plugin-device" spec="^1.1.4" />
     <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
+=======
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
+    <plugin name="cordova-plugin-device" spec="^1.1.7" />
+    <plugin name="cordova-plugin-splashscreen" spec="^4.1.0" />
+>>>>>>> a6f569d... mudancas
     <plugin name="cordova-plugin-ionic-webview" spec="^1.1.16" />
     <plugin name="cordova-plugin-googlemaps" spec="^2.1.1">
         <variable name="API_KEY_FOR_ANDROID" value="AIzaSyCRvSDB4wKhvNRd-qGyLCkar6OwlbCxjao" />

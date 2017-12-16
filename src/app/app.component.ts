@@ -5,7 +5,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 // import { NavController } from 'ionic-angular';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { AlertController } from 'ionic-angular';
+<<<<<<< HEAD
 
+=======
+import { PagamentoPage } from '../pages/pagamento/pagamento';
+>>>>>>> a6f569d... mudancas
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { LoginPage } from '../pages/login/login';
@@ -31,8 +35,15 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
+<<<<<<< HEAD
       { title: 'Home', component: HomePage, icon: 'home' },
       { title: 'Histórico', component: ListPage, icon: 'pin' }
+=======
+      { title: 'Tela Inicial', component: HomePage, icon: 'home' },
+      { title: 'Histórico', component: ListPage, icon: 'pin' },
+      { title: 'Pagamento', component: PagamentoPage, icon: 'cash' }
+     
+>>>>>>> a6f569d... mudancas
     ];
 
   }
@@ -90,4 +101,25 @@ export class MyApp {
 
     alert.present();
   }
+<<<<<<< HEAD
+=======
+   doPromptContato() {
+    let alert = this.Alert.create({
+      title: '&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspCONTATO',
+      subTitle: '<p>TELEFONE:<br>199957962 <br/> <br>E-MAIL: suporte@interakt.com.br</p><br><br> Equipe Smart Security.',    
+ 
+      buttons: [
+        {
+          text: 'Voltar',
+          handler: (data: any) => {
+            console.log('Cancel clicked');
+          }
+        },
+        
+      ]
+    });
+
+    alert.present();
+  }
+>>>>>>> a6f569d... mudancas
 }

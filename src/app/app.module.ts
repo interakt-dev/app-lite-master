@@ -11,6 +11,10 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { ListDetailPage } from '../pages/list-detail/list-detail';
 import { LoginPage } from '../pages/login/login';
+<<<<<<< HEAD
+=======
+import { PagamentoPage } from '../pages/pagamento/pagamento';
+>>>>>>> a6f569d... mudancas
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -26,6 +30,10 @@ import { UsersProvider } from '../providers/users/users';
     LoginPage,
     HomePage,
     ListPage,
+<<<<<<< HEAD
+=======
+	PagamentoPage,
+>>>>>>> a6f569d... mudancas
     ListDetailPage
   ],
   imports: [
@@ -40,6 +48,10 @@ import { UsersProvider } from '../providers/users/users';
     LoginPage,
     HomePage,
     ListPage,
+<<<<<<< HEAD
+=======
+	PagamentoPage,
+>>>>>>> a6f569d... mudancas
     ListDetailPage
   ],
   providers: [

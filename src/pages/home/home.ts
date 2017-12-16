@@ -37,8 +37,13 @@ export class HomePage {
         target: {
           // lat: -12.9996967,
           // long: -38.510406
+<<<<<<< HEAD
           lat: 43.0741904,
           lng: -89.3809802
+=======
+          lat: -12.999490,
+          lng: -38.510411
+>>>>>>> a6f569d... mudancas
         },
         zoom: 15,
         tilt: 30
@@ -48,14 +53,24 @@ export class HomePage {
     this.map.one(GoogleMapsEvent.MAP_READY)
       .then(() => {
         this.map.addMarker({
+<<<<<<< HEAD
           title: 'Ionic',
+=======
+          title: 'Cliente1,Carro:Audi a8,Telefone:91919293',
+		  
+>>>>>>> a6f569d... mudancas
           icon: 'blue',
           animation: 'DROP',
           position: {
             // lat: -12.9996967,
             // long: -38.510406
+<<<<<<< HEAD
             lat: 43.0741904,
             lng: -89.3809802
+=======
+            lat: -12.999490,
+            lng: -38.510411
+>>>>>>> a6f569d... mudancas
           }
         })
           .then(marker => {
