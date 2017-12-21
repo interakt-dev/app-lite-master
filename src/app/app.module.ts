@@ -12,6 +12,7 @@ import { ListPage } from '../pages/list/list';
 import { ListDetailPage } from '../pages/list-detail/list-detail';
 import { LoginPage } from '../pages/login/login';
 import { PagamentoPage } from '../pages/pagamento/pagamento';
+import { ContatoPage } from '../pages/contato/contato';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -20,6 +21,7 @@ import { environment } from '../environment/environment';
 import { GoogleMaps } from '@ionic-native/google-maps';
 
 import { UsersProvider } from '../providers/users/users';
+import { EmailProvider } from '../providers/email/email';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,7 @@ import { UsersProvider } from '../providers/users/users';
     HomePage,
     ListPage,
 	PagamentoPage,
+	ContatoPage,
     ListDetailPage
   ],
   imports: [
@@ -43,6 +46,7 @@ import { UsersProvider } from '../providers/users/users';
     HomePage,
     ListPage,
 	PagamentoPage,
+	ContatoPage,
     ListDetailPage
   ],
   providers: [
@@ -51,7 +55,8 @@ import { UsersProvider } from '../providers/users/users';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    UsersProvider    
+    UsersProvider,
+    EmailProvider    
   ]
 })
 export class AppModule {}

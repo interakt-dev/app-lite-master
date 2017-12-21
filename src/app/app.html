@@ -14,16 +14,51 @@
         <ion-icon [name]="p.icon" item-left></ion-icon>
         {{p.title}}
       </button>
+	  <ion-item  >
+        <ion-icon name="ios-radio" item-left></ion-icon>
+		
+		<ion-label>Ativar Alarme</ion-label>
+    <ion-toggle [(ngModel)]="o"></ion-toggle>
+      </ion-item>
+	  
       <!--<button menuClose ion-item (click)="doPrompt()">Insira seu Smart Code
         <ion-icon name="lock" item-left></ion-icon>
       </button>
       -->
-      <button menuClose ion-item (click)="doPromptContato()">Fale Conosco
+     <!-- <button menuClose ion-item (click)="doPromptContato()">Fale Conosco
         <ion-icon name="people" item-left></ion-icon>
       </button>
+	  -->
+	  	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+    <br>
+	<br>
+	<br>
+
+	<!--<button menuClose ion-item (click)="openPage(ContatoPage)">Contato
+        <ion-icon name="people" item-left></ion-icon>
+      </button>	
+	  
+	  -->
     </ion-list>
+	
+
     <div class="footer">
-      <button menuClose ion-item (click)="logout()">Logout
+	
+	  
+      <button menuClose ion-item (click)="logout()">Sair
         <ion-icon name="exit" item-left></ion-icon>
       </button>
     </div>

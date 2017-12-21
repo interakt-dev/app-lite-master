@@ -6,6 +6,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { AlertController } from 'ionic-angular';
 import { PagamentoPage } from '../pages/pagamento/pagamento';
+import { ContatoPage } from '../pages/contato/contato';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { LoginPage } from '../pages/login/login';
@@ -33,7 +34,8 @@ export class MyApp {
     this.pages = [
       { title: 'Tela Inicial', component: HomePage, icon: 'home' },
       { title: 'Histórico', component: ListPage, icon: 'pin' },
-      { title: 'Pagamento', component: PagamentoPage, icon: 'cash' }
+      { title: 'Pagamento', component: PagamentoPage, icon: 'cash' },
+	  { title: 'Contato', component:ContatoPage, icon: 'people' },
      
     ];
 
@@ -95,7 +97,7 @@ export class MyApp {
    doPromptContato() {
     let alert = this.Alert.create({
       title: '&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbspCONTATO',
-      subTitle: '<p>TELEFONE:<br>199957962 <br/> <br>E-MAIL: suporte@interakt.com.br</p><br><br> Equipe Smart Security.',    
+      subTitle: '<p>TELEFONE:<br>(71)999957962 <br/> <br>E-MAIL: suporte@interakt.com.br</p><br><br> Equipe Smart Security.',    
  
       buttons: [
         {

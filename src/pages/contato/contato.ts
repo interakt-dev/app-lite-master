@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Http, Headers, RequestOptions } from '@angular/http';
-import 'rxjs/add/operator/catch';
-import 'rxjs/add/operator/toPromise';
+//import { EmailComposer } from '@ionic-native/email-composer';
 @Component({
   selector: 'page-list',
-  templateUrl: 'pagamento.html'
+  templateUrl: 'contato.html'
 })
-export class PagamentoPage {
+export class ContatoPage {
 	 constructor(
     public navCtrl: NavController,
+	//private _EMAIL: EmailComposer,
   ) {}
-  
+ 
+   
 }
